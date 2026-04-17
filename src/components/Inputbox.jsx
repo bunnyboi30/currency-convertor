@@ -1,4 +1,4 @@
-import React, {useId} from "react";
+import React, { useId } from "react";
 
 function Inputbox({
   label,
@@ -10,7 +10,7 @@ function Inputbox({
   amountDisabled = false,
   className = "",
 }) {
-  const id = useId()
+  const id = useId();
   return (
     <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
       <div className="w-1/2">
